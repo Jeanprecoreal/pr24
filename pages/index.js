@@ -32,7 +32,7 @@ export default function Home(){
 
     <div className={styles.controls}>
       <input value={textInput} onInput={(e)=>{setTextInput(e.target.value)}}/>
-      <button onClick={adicionar}>+</button>
+      <button onClick={adicionar}>++</button>
     </div>
 
   </div>)

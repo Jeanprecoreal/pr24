@@ -6,7 +6,7 @@ import Item from "../components/Item"
 
 export default function Home(){
   const [textInput, setTextInput] = useState("")
-  const [array, setArray] = useState(["Primeiro item", "novo item"])
+  const [array, setArray] = useState(["Primeiro item", "novo item",<>{slice.primary.nome}</>])
   
   function adicionar(){
     setArray(array=>[...array, textInput])
@@ -32,7 +32,8 @@ export default function Home(){
 
     <div className={styles.controls}>
       <input value={textInput} onInput={(e)=>{setTextInput(e.target.value)}}/>
-      <button onClick={adicionar}>++</button>
+      <button onClick={adicionar}>+</button>
+      <>{slice.primary.nome}</>
     </div>
 
   </div>)

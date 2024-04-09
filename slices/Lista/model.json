@@ -1,0 +1,26 @@
+{
+  "id": "lista",
+  "type": "SharedSlice",
+  "name": "Lista",
+  "description": "Lista",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "nome": {
+          "type": "Text",
+          "config": {
+            "label": "nome",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

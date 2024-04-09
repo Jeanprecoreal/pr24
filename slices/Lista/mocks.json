@@ -1,0 +1,14 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"nome": {
+				"__TYPE__": "FieldContent",
+				"value": "pass",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

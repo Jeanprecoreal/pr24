@@ -1,0 +1,25 @@
+{
+  "format": "custom",
+  "id": "lista",
+  "label": "Lista",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "item": {
+        "type": "Group",
+        "config": {
+          "label": "Item",
+          "repeat": true,
+          "fields": {}
+        }
+      }
+    }
+  }
+}
